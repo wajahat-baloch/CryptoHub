@@ -1,5 +1,6 @@
 import { Avatar, VStack, Text, Box, Stack } from "@chakra-ui/react";
 import React from "react";
+import img from "../image/founder.jpeg";
 
 const Footer = () => {
   return (
@@ -17,7 +18,6 @@ const Footer = () => {
           <Text
             fontSize={"sm"}
             letterSpacing={"widest"}
-            // textAlign={["c"]}
             textAlign={["center", "left"]}
           >
             We are the best Crypto Trading App in Pakistan
@@ -25,8 +25,8 @@ const Footer = () => {
         </VStack>
 
         <VStack>
-          <Avatar boxSize={"28"} mt={[4, 0]} />
-          <Text>Our Founder</Text>
+          <Avatar boxSize={"28"} mt={[4, 0]} src={img} />
+          <Text>Wajahat Baloch</Text>
         </VStack>
       </Stack>
     </Box>
